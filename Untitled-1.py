@@ -25,4 +25,4 @@ for contour in contours:
 cv2.drawContours(depth_map,obstacles,-1,(0,0,255),3)
 
 # Display the output
-cv2.imshow(depth_map,'gray')
+
