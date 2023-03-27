@@ -22,7 +22,7 @@ for contour in contours:
         obstacles.append(contour)
 
 # Draw obstacles on image
-cv2.drawContours(depth_map,obstacles,-1,(0,0,255),3)
+
 
 # Display the output
 
